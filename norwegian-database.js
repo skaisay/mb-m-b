@@ -107,7 +107,496 @@ const NORWEGIAN_DATABASE = {
             examples: [
                 { no: "Hei, jeg kommer fra Russland.", ru: "Привет, я из России." }
             ]
-        }
+        },
+        // --- GREETINGS ---
+        {
+            id: 9,
+            norwegian: "god dag",
+            russian: "добрый день",
+            category: "greetings",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "гу даг",
+            examples: [
+                { no: "God dag! Hvordan går det?", ru: "Добрый день! Как дела?" }
+            ]
+        },
+        {
+            id: 10,
+            norwegian: "god kveld",
+            russian: "добрый вечер",
+            category: "greetings",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "гу квель",
+            examples: [
+                { no: "God kveld! Hva gjør du i kveld?", ru: "Добрый вечер! Чем занимаешься вечером?" }
+            ]
+        },
+        {
+            id: 11,
+            norwegian: "ha det",
+            russian: "пока",
+            category: "greetings",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "ха дэ",
+            examples: [
+                { no: "Ha det! Vi sees i morgen.", ru: "Пока! Увидимся завтра." }
+            ]
+        },
+        {
+            id: 12,
+            norwegian: "vi sees",
+            russian: "увидимся",
+            category: "greetings",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "ви сэс",
+            examples: [
+                { no: "Vi sees senere!", ru: "Увидимся позже!" }
+            ]
+        },
+        {
+            id: 13,
+            norwegian: "hvordan har du det?",
+            russian: "как дела?",
+            category: "greetings",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "вурдан хар ду дэ",
+            examples: [
+                { no: "Hei! Hvordan har du det?", ru: "Привет! Как дела?" }
+            ]
+        },
+        {
+            id: 14,
+            norwegian: "hyggelig å møte deg",
+            russian: "приятно познакомиться",
+            category: "greetings",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "хюгели о мёте дай",
+            examples: [
+                { no: "Hyggelig å møte deg!", ru: "Приятно познакомиться!" }
+            ]
+        },
+        {
+            id: 15,
+            norwegian: "velkommen",
+            russian: "добро пожаловать",
+            category: "greetings",
+            level: "beginner",
+            type: "word",
+            pronunciation: "велькоммен",
+            examples: [
+                { no: "Velkommen til Norge!", ru: "Добро пожаловать в Норвегию!" }
+            ]
+        },
+        {
+            id: 16,
+            norwegian: "farvel",
+            russian: "прощай",
+            category: "greetings",
+            level: "beginner",
+            type: "word",
+            pronunciation: "фарвель",
+            examples: [
+                { no: "Farvel, vi sees kanskje igjen.", ru: "Прощай, возможно, ещё увидимся." }
+            ]
+        },
+        // --- SHOPPING ---
+        {
+            id: 17,
+            norwegian: "jeg vil kjøpe",
+            russian: "я хочу купить",
+            category: "shopping",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "яй вил шёпе",
+            examples: [
+                { no: "Jeg vil kjøpe en billett.", ru: "Я хочу купить билет." }
+            ]
+        },
+        {
+            id: 18,
+            norwegian: "har dere ...?",
+            russian: "у вас есть ...?",
+            category: "shopping",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "хар дерэ",
+            examples: [
+                { no: "Har dere melk?", ru: "У вас есть молоко?" }
+            ]
+        },
+        {
+            id: 19,
+            norwegian: "kan jeg få kvittering?",
+            russian: "можно чек?",
+            category: "shopping",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "кан яй фо квитеринг",
+            examples: [
+                { no: "Kan jeg få kvittering, takk?", ru: "Можно чек, спасибо?" }
+            ]
+        },
+        {
+            id: 20,
+            norwegian: "jeg betaler med kort",
+            russian: "я плачу картой",
+            category: "shopping",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "яй беталер мед корт",
+            examples: [
+                { no: "Jeg betaler med kort.", ru: "Я плачу картой." }
+            ]
+        },
+        {
+            id: 21,
+            norwegian: "er det på tilbud?",
+            russian: "это по акции?",
+            category: "shopping",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "эр дэ по тильбуд",
+            examples: [
+                { no: "Er det på tilbud i dag?", ru: "Это сегодня по акции?" }
+            ]
+        },
+        // --- COMMUNICATION ---
+        {
+            id: 22,
+            norwegian: "snakker du engelsk?",
+            russian: "вы говорите по-английски?",
+            category: "communication",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "снакер ду энгельск",
+            examples: [
+                { no: "Snakker du engelsk?", ru: "Вы говорите по-английски?" }
+            ]
+        },
+        {
+            id: 23,
+            norwegian: "kan du gjenta?",
+            russian: "можете повторить?",
+            category: "communication",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "кан ду йента",
+            examples: [
+                { no: "Kan du gjenta, vær så snill?", ru: "Можете повторить, пожалуйста?" }
+            ]
+        },
+        {
+            id: 24,
+            norwegian: "jeg forstår",
+            russian: "я понимаю",
+            category: "communication",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "яй форшор",
+            examples: [
+                { no: "Ja, jeg forstår.", ru: "Да, я понимаю." }
+            ]
+        },
+        {
+            id: 25,
+            norwegian: "jeg snakker ikke norsk",
+            russian: "я не говорю по-норвежски",
+            category: "communication",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "яй снаккер ике норск",
+            examples: [
+                { no: "Beklager, jeg snakker ikke norsk.", ru: "Извините, я не говорю по-норвежски." }
+            ]
+        },
+        // --- PERSONAL INFO ---
+        {
+            id: 26,
+            norwegian: "jeg heter ...",
+            russian: "меня зовут ...",
+            category: "personal_info",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "яй хэтер",
+            examples: [
+                { no: "Hei, jeg heter Anna.", ru: "Привет, меня зовут Анна." }
+            ]
+        },
+        {
+            id: 27,
+            norwegian: "hvor bor du?",
+            russian: "где ты живёшь?",
+            category: "personal_info",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "вур бур ду",
+            examples: [
+                { no: "Hvor bor du?", ru: "Где ты живёшь?" }
+            ]
+        },
+        {
+            id: 28,
+            norwegian: "jeg bor i Oslo",
+            russian: "я живу в Осло",
+            category: "personal_info",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "яй бур и ослу",
+            examples: [
+                { no: "Jeg bor i Oslo.", ru: "Я живу в Осло." }
+            ]
+        },
+        {
+            id: 29,
+            norwegian: "hvor gammel er du?",
+            russian: "сколько тебе лет?",
+            category: "personal_info",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "вур гаммель эр ду",
+            examples: [
+                { no: "Hvor gammel er du?", ru: "Сколько тебе лет?" }
+            ]
+        },
+        {
+            id: 30,
+            norwegian: "jeg er 25 år gammel",
+            russian: "мне 25 лет",
+            category: "personal_info",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "яй эр 25 ор гаммель",
+            examples: [
+                { no: "Jeg er 25 år gammel.", ru: "Мне 25 лет." }
+            ]
+        },
+        // --- FOOD ---
+        {
+            id: 31,
+            norwegian: "jeg er sulten",
+            russian: "я голоден",
+            category: "food",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "яй эр султен",
+            examples: [
+                { no: "Jeg er sulten. Kan vi spise?", ru: "Я голоден. Можем поесть?" }
+            ]
+        },
+        {
+            id: 32,
+            norwegian: "jeg er tørst",
+            russian: "я хочу пить",
+            category: "food",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "яй эр тёшт",
+            examples: [
+                { no: "Jeg er tørst. Har du vann?", ru: "Я хочу пить. У тебя есть вода?" }
+            ]
+        },
+        {
+            id: 33,
+            norwegian: "frokost",
+            russian: "завтрак",
+            category: "food",
+            level: "beginner",
+            type: "word",
+            pronunciation: "фрокост",
+            examples: [
+                { no: "Vi spiser frokost klokka åtte.", ru: "Мы завтракаем в восемь." }
+            ]
+        },
+        {
+            id: 34,
+            norwegian: "middag",
+            russian: "ужин",
+            category: "food",
+            level: "beginner",
+            type: "word",
+            pronunciation: "мидаг",
+            examples: [
+                { no: "Hva har vi til middag?", ru: "Что у нас на ужин?" }
+            ]
+        },
+        {
+            id: 35,
+            norwegian: "kaffe",
+            russian: "кофе",
+            category: "food",
+            level: "beginner",
+            type: "word",
+            pronunciation: "кафе",
+            examples: [
+                { no: "Vil du ha kaffe?", ru: "Хочешь кофе?" }
+            ]
+        },
+        {
+            id: 36,
+            norwegian: "brød",
+            russian: "хлеб",
+            category: "food",
+            level: "beginner",
+            type: "word",
+            pronunciation: "брё",
+            examples: [
+                { no: "Kan du gi meg brødet?", ru: "Можешь передать хлеб?" }
+            ]
+        },
+        // --- TRANSPORT ---
+        {
+            id: 37,
+            norwegian: "buss",
+            russian: "автобус",
+            category: "transport",
+            level: "beginner",
+            type: "word",
+            pronunciation: "бусс",
+            examples: [
+                { no: "Når går bussen?", ru: "Когда идёт автобус?" }
+            ]
+        },
+        {
+            id: 38,
+            norwegian: "tog",
+            russian: "поезд",
+            category: "transport",
+            level: "beginner",
+            type: "word",
+            pronunciation: "тог",
+            examples: [
+                { no: "Hvor er togstasjonen?", ru: "Где вокзал?" }
+            ]
+        },
+        {
+            id: 39,
+            norwegian: "fly",
+            russian: "самолёт",
+            category: "transport",
+            level: "beginner",
+            type: "word",
+            pronunciation: "флю",
+            examples: [
+                { no: "Når går flyet til Bergen?", ru: "Когда самолёт в Берген?" }
+            ]
+        },
+        {
+            id: 40,
+            norwegian: "bil",
+            russian: "машина",
+            category: "transport",
+            level: "beginner",
+            type: "word",
+            pronunciation: "биль",
+            examples: [
+                { no: "Jeg har en bil.", ru: "У меня есть машина." }
+            ]
+        },
+        // --- TIME ---
+        {
+            id: 41,
+            norwegian: "klokke",
+            russian: "часы",
+            category: "time",
+            level: "beginner",
+            type: "word",
+            pronunciation: "клокке",
+            examples: [
+                { no: "Hva er klokka?", ru: "Который час?" }
+            ]
+        },
+        {
+            id: 42,
+            norwegian: "i dag",
+            russian: "сегодня",
+            category: "time",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "и даг",
+            examples: [
+                { no: "Hva gjør du i dag?", ru: "Что ты делаешь сегодня?" }
+            ]
+        },
+        {
+            id: 43,
+            norwegian: "i morgen",
+            russian: "завтра",
+            category: "time",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "и морген",
+            examples: [
+                { no: "Vi sees i morgen.", ru: "Увидимся завтра." }
+            ]
+        },
+        {
+            id: 44,
+            norwegian: "uke",
+            russian: "неделя",
+            category: "time",
+            level: "beginner",
+            type: "word",
+            pronunciation: "уке",
+            examples: [
+                { no: "En uke har sju dager.", ru: "В неделе семь дней." }
+            ]
+        },
+        // --- WEATHER ---
+        {
+            id: 45,
+            norwegian: "det regner",
+            russian: "идёт дождь",
+            category: "weather",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "дэ рэгнер",
+            examples: [
+                { no: "Det regner i dag.", ru: "Сегодня идёт дождь." }
+            ]
+        },
+        {
+            id: 46,
+            norwegian: "det er sol",
+            russian: "солнечно",
+            category: "weather",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "дэ эр соль",
+            examples: [
+                { no: "Det er sol og varmt.", ru: "Солнечно и тепло." }
+            ]
+        },
+        {
+            id: 47,
+            norwegian: "det snør",
+            russian: "идёт снег",
+            category: "weather",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "дэ снёр",
+            examples: [
+                { no: "Det snør mye om vinteren.", ru: "Зимой часто идёт снег." }
+            ]
+        },
+        {
+            id: 48,
+            norwegian: "det er kaldt",
+            russian: "холодно",
+            category: "weather",
+            level: "beginner",
+            type: "phrase",
+            pronunciation: "дэ эр кальт",
+            examples: [
+                { no: "Det er kaldt ute.", ru: "На улице холодно." }
+            ]
+        },
+        // ...можно продолжать аналогично для других категорий и уровней...
     ],
 
     // Грамматические правила
